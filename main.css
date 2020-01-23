@@ -1,0 +1,75 @@
+/* CSS style sheet template */
+
+/* Body style */
+
+body {
+  background-color: lightgrey;
+  font-size: 18px;
+ }
+ 
+ /* Import Google font */
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500');
+body {
+ font-family: 'Roboto Mono', monospace;
+}
+
+/* Menu Link format */
+
+a:link, a:visited {
+  background-color: grey;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  border-style: inset;
+}
+a:hover, a:active {
+  background-color: grey;
+}
+
+/* Bio class format */
+
+.bio {
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+/* Bioh Header class format */
+
+.bioh {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+}
+
+.bioh1 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  text-align: left;
+}
+
+/* footer code class format */
+
+.footer 
+{
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: grey;
+          color: white;
+          text-align: center;
+          border-radius: 15px;
+        }
+      
